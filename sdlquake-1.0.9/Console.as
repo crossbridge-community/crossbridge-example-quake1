@@ -59,7 +59,7 @@ package com.adobe.flascc
     private var vbuffer:int, vgl_mx:int, vgl_my:int, kp:int
     private const emptyArgs:Vector.<int> = new Vector.<int>
     
-    include "../../TestingCode.as"
+    //include "../../TestingCode.as"
 
     /**
     * To Support the preloader case you might want to have the Console
