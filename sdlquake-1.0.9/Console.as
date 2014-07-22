@@ -59,8 +59,6 @@ package com.adobe.flascc
     private var vbuffer:int, vgl_mx:int, vgl_my:int, kp:int
     private const emptyArgs:Vector.<int> = new Vector.<int>
     
-    //include "../../TestingCode.as"
-
     /**
     * To Support the preloader case you might want to have the Console
     * act as a child of some other DisplayObjectContainer.
@@ -144,8 +142,6 @@ package com.adobe.flascc
       vgl_mx = CModule.getPublicSymbol("vgl_cur_mx")
       vgl_my = CModule.getPublicSymbol("vgl_cur_my")
       enginetickptr = CModule.getPublicSymbol("engineTick")
-        
-      initTesting()
     }
 
     /**
